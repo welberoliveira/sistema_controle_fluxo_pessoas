@@ -237,7 +237,7 @@ End Class
 
 
 Public Class Acesso2
-    Dim strsql2 = "Driver={MySQL ODBC 3.51 Driver};Server=robb0258.publiccloud.com.br;Database=fococonsultoria_db1;uid=fococ_db1;pwd=7Huk27w#7Huk27w#;" 'web
+    Dim strsql2 = "Driver={MySQL ODBC 3.51 Driver};Server=publiccloud.com.br;Database=fococo_db1;uid=foco;pwd=;" 'web
     Public reader As OdbcDataReader
     Private conexao As New OdbcConnection(strsql2)
 
