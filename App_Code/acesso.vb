@@ -7,7 +7,7 @@ Imports MySql.Data.MySqlClient
 
 Public Class acesso
 
-    Private conexao As MySqlConnection = New MySqlConnection("server=robb0258.publiccloud.com.br; database=fococonsultoria_db1; user id=fococ_db1; password=7Huk27w#7Huk27w#; pooling=false;")
+    Private conexao As MySqlConnection = New MySqlConnection("server=publiccloud.com.br; database=foco_db1; user id=foco_db1; password=; pooling=false;")
     Public reader As MySqlDataReader
 
 
